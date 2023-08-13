@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "CopyPageContent-BDD",
+  "version": "1.0",
+  "description": "copy page content from docs sites to BetterDevDocs, from HTML to JSX",
+
+  "content_scripts": [
+    {
+      "js": ["./scripts/content.js"],
+      "matches": ["http://localhost:5173/*"]
+    }
+  ]
+}
