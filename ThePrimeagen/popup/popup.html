@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body class="bg-neutral-900 w-64 h-48">
+    <nav>
+      <ul
+        class="grid grid-cols-3 bg-neutral-950 w-full items-center text-center text-neutral-100 font-medium text-base select-none"
+      >
+        <li
+          class="nav-item pt-1 pb-1 cursor-pointer relative after:absolute after:left-0 after:right-0 after:bottom-0 after:h-0.5 after:bg-slate-300"
+        >
+          Now
+        </li>
+        <li
+          class="nav-item pt-1 pb-1 cursor-pointer relative after:absolute after:left-0 after:right-0 after:bottom-0 after:h-0.5"
+        >
+          YouTube
+        </li>
+        <li
+          class="nav-item pt-1 pb-1 cursor-pointer relative after:absolute after:left-0 after:right-0 after:bottom-0 after:h-0.5"
+        >
+          Links
+        </li>
+      </ul>
+    </nav>
+
+    <main
+      id="main"
+      class="text-neutral-400 font-normal selection:text-neutral-950 selection:bg-neutral-500 max-h-[calc(100%-34px)] overflow-y-auto"
+    >
+      <section id="now" class="hidden gap-2 flex-col px-2 py-4"></section>
+      <section id="youtube" class="hidden gap-2 flex-col px-2 py-4"></section>
+      <section id="links" class="flex gap-2 flex-col px-2 py-4"></section>
+
+      <script src="./Links.js"></script>
+      <script src="./popup.js"></script>
+    </main>
+  </body>
+</html>

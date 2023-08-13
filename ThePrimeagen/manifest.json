@@ -1,0 +1,18 @@
+{
+  "name": "ThePrimeagen",
+  "description": "For people who want to be notify when prime is live on Twitch or when he upload new video on YouTube",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "action": {
+    "default_popup": "./popup/popup.html",
+    "default_icon": "./images/ThePrimeTime.png"
+  },
+
+  "icons": {
+    "16": "./images/ThePrimeTime.png",
+    "32": "./images/ThePrimeTime.png",
+    "48": "./images/ThePrimeTime.png",
+    "128": "./images/ThePrimeTime.png"
+  }
+}

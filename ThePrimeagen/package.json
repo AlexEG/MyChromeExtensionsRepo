@@ -1,0 +1,23 @@
+{
+  "name": "ThePrimeagen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./popup/index.css -o ./popup/popup.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
